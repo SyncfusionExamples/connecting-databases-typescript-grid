@@ -1,6 +1,6 @@
-# JavaScript Grid SQL Server Connectivity using Dapper and CustomAdaptor
+# TypeScript Grid SQL Server Connectivity using Dapper and CustomAdaptor
 
-A project that enables data binding and CRUD action handling in the Syncfusion JavaScript Grid to a SQL Server using Dapper (mapping tool) and CustomAdaptor feature of the Grid.
+A project that enables data binding and CRUD action handling in the Syncfusion TypeScript Grid to a SQL Server using Dapper (mapping tool) and CustomAdaptor feature of the Grid.
 
 ## Steps to Run the Sample
 
@@ -10,7 +10,7 @@ A project that enables data binding and CRUD action handling in the Syncfusion J
 
 3. Replace the connected database's connection string in the `GridController.cs` file.
 
-4. In the JavaScript client project, open `js/index.js` and replace the port number in the API URL where it says `xxxx` with the actual backend server port.
+4. In the TypeScript client project, open `src/index.ts` and replace the port number in the API URL where it says `xxxx` with the actual backend server port.
 
 5. Navigate to the client project folder and run the following command:
 

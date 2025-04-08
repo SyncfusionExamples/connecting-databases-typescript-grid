@@ -12,7 +12,7 @@ namespace Grid_Dapper.Controllers
     public class GridController : ControllerBase
     {
 
-        string ConnectionString = @"<Enter a valid connection string>";
+         string ConnectionString = @"<Enter a valid connection string>";
         
         /// <summary>
         /// Processes the DataManager request to perform searching, filtering, sorting, and paging operations.
@@ -23,47 +23,39 @@ namespace Grid_Dapper.Controllers
         [Route("api/[controller]")]
         public object Post([FromBody] DataManagerRequest DataManagerRequest)
         {
-            // Retrieve data from the data source (e.g., database)
+            // Retrieve data from the data source (e.g., database).
             IQueryable<Orders> DataSource = GetOrderData().AsQueryable();
 
-            QueryableOperation queryableOperation = new QueryableOperation(); // Initialize QueryableOperation instance
+            // Initialize QueryableOperation instance.
+            QueryableOperation queryableOperation = new QueryableOperation();
 
-
-            // Handling Searching operation
+            // Handling searching operation.
             if (DataManagerRequest.Search != null && DataManagerRequest.Search.Count > 0)
             {
                 DataSource = queryableOperation.PerformSearching(DataSource, DataManagerRequest.Search);
+                //Add custom logic here if needed and remove above method.
             }
 
-            // Handling filtering operation
+            // Handling filtering operation.
             if (DataManagerRequest.Where != null && DataManagerRequest.Where.Count > 0)
             {
-                foreach (var condition in DataManagerRequest.Where)
+                foreach (WhereFilter condition in DataManagerRequest.Where)
                 {
-                    foreach (var predicate in condition.predicates)
+                    foreach (WhereFilter predicate in condition.predicates)
                     {
                         DataSource = queryableOperation.PerformFiltering(DataSource, DataManagerRequest.Where, predicate.Operator);
+                        //Add custom logic here if needed and remove above method.
                     }
                 }
             }
 
-            // Handling Sorting operation.
+            // Handling sorting operation.
             if (DataManagerRequest.Sorted != null && DataManagerRequest.Sorted.Count > 0)
             {
                 DataSource = queryableOperation.PerformSorting(DataSource, DataManagerRequest.Sorted);
-            }
-            // Handle aggregation
-            List<string> str = new List<string>();
-            if (DataManagerRequest.Aggregates != null)
-            {
-                for (var i = 0; i < DataManagerRequest.Aggregates.Count; i++)
-                {
-                    str.Add(DataManagerRequest.Aggregates[i].Field);
-                }
+                //Add custom logic here if needed and remove above method.
             }
 
-            // Assuming PerformSelect is the method that handles the aggregation logic
-            IEnumerable aggregate = queryableOperation.PerformSelect(DataSource, str);
 
             // Get the total count of records.
             int totalRecordsCount = DataSource.Count();
@@ -71,16 +63,17 @@ namespace Grid_Dapper.Controllers
             // Handling paging operation.
             if (DataManagerRequest.Skip != 0)
             {
-
                 DataSource = queryableOperation.PerformSkip(DataSource, DataManagerRequest.Skip);
+                //Add custom logic here if needed and remove above method.
             }
             if (DataManagerRequest.Take != 0)
             {
                 DataSource = queryableOperation.PerformTake(DataSource, DataManagerRequest.Take);
+                //Add custom logic here if needed and remove above method.
             }
 
             // Return data based on the request.
-            return new { result = DataSource, count = totalRecordsCount, aggregate = aggregate };
+            return new { result = DataSource, count = totalRecordsCount };
         }
 
         [HttpGet]
@@ -101,120 +94,139 @@ namespace Grid_Dapper.Controllers
         /// <summary>
         /// Inserts a new data item into the data collection.
         /// </summary>
-        /// <param name="newRecord">It contains the new record detail which is need to be inserted.</param>
-        /// <returns>Returns void</returns>
+        /// <param name="value">It contains the new record detail which is need to be inserted.</param>
+        /// <returns>Returns void.</returns>
         [HttpPost]
         [Route("api/[controller]/Insert")]
         public void Insert([FromBody] CRUDModel<Orders> value)
         {
-            //Create query to insert the specific into the database by accessing its properties 
-            string Query = "INSERT INTO Orders(CustomerID, Freight, ShipCity, EmployeeID) VALUES(@CustomerID, @Freight, @ShipCity, @EmployeeID)";
+            //Create query to insert the specific into the database by accessing its properties.
+            string queryStr = "INSERT INTO Orders(CustomerID, Freight, ShipCity, EmployeeID) VALUES(@CustomerID, @Freight, @ShipCity, @EmployeeID)";
+
+            //Create SQL connection.
             using (IDbConnection Connection = new SqlConnection(ConnectionString))
             {
                 Connection.Open();
-                //Execute this code to reflect the changes into the database
-                Connection.Execute(Query, value.value);
+                //Execute this code to reflect the changes into the database.
+                Connection.Execute(queryStr, value.value);
             }
 
+            //Add custom logic here if needed and remove above method.
         }
 
         /// <summary>
         /// Update a existing data item from the data collection.
         /// </summary>
-        /// <param name="Order">It contains the updated record detail which is need to be updated.</param>
-        /// <returns>Returns void</returns>
+        /// <param name="value">It contains the updated record detail which is need to be updated.</param>
+        /// <returns>Returns void.</returns>
         [HttpPost]
         [Route("api/[controller]/Update")]
         public void Update([FromBody] CRUDModel<Orders> value)
         {
-            //Create query to update the changes into the database by accessing its properties
-            string Query = "UPDATE Orders SET CustomerID = @CustomerID, Freight = @Freight, ShipCity = @ShipCity, EmployeeID = @EmployeeID WHERE OrderID = @OrderID";
+            //Create query to update the changes into the database by accessing its properties.
+            string queryStr = "UPDATE Orders SET CustomerID = @CustomerID, Freight = @Freight, ShipCity = @ShipCity, EmployeeID = @EmployeeID WHERE OrderID = @OrderID";
+
+            //Create SQL connection.
             using (IDbConnection Connection = new SqlConnection(ConnectionString))
             {
                 Connection.Open();
-                //Execute this code to reflect the changes into the database
-                Connection.Execute(Query, value.value);
+                //Execute this code to reflect the changes into the database.
+                Connection.Execute(queryStr, value.value);
             }
+            
+            //Add custom logic here if needed and remove above method.
         }
 
         /// <summary>
         /// Remove a specific data item from the data collection.
         /// </summary>
         /// <param name="value">It contains the specific record detail which is need to be removed.</param>
-        /// <return>Returns void</return>
+        /// <return>Returns void.</return>
         [HttpPost]
         [Route("api/[controller]/Remove")]
         public void Remove([FromBody] CRUDModel<Orders> value)
         {
             //Create query to remove the specific from database by passing the primary key column value.
-            string Query = "DELETE FROM Orders WHERE OrderID = @OrderID";
+            string queryStr = "DELETE FROM Orders WHERE OrderID = @OrderID";
+
+            //Create SQL connection.
             using (IDbConnection Connection = new SqlConnection(ConnectionString))
             {
                 Connection.Open();
                 int orderID = Convert.ToInt32(value.key.ToString());
-                //Execute this code to reflect the changes into the database
-                Connection.Execute(Query, new { OrderID = orderID });
+                //Execute this code to reflect the changes into the database.
+                Connection.Execute(queryStr, new { OrderID = orderID });
             }
+
+            //Add custom logic here if needed and remove above method.
         }
 
 
 
         /// <summary>
-        /// The code for handling CRUD operation when enbaling batch editing
+        /// Batch update (Insert, Update, and Delete) a collection of data items from the data collection.
         /// </summary>
-        /// <param name="batchmodel"></param>
-        /// <returns></returns>
-
+        /// <param name="value">The set of information along with details about the CRUD actions to be executed from the database.</param>
+        /// <returns>Returns void.</returns>
         [HttpPost]
         [Route("api/[controller]/BatchUpdate")]
         public IActionResult BatchUpdate([FromBody] CRUDModel<Orders> value)
         {
-            //TODO: Enter the connectionstring of database
             if (value.changed != null && value.changed.Count > 0)
             {
-                foreach (var Record in (IEnumerable<Orders>)value.changed)
+                foreach (Orders Record in (IEnumerable<Orders>)value.changed)
                 {
-                    //Create query to update the changes into the database by accessing its properties
-                    string Query = "UPDATE Orders SET CustomerID = @CustomerID, Freight = @Freight, ShipCity = @ShipCity, EmployeeID = @EmployeeID WHERE OrderID = @OrderID";
-                    using (IDbConnection Connection = new SqlConnection(ConnectionString))
-                    {
-                        Connection.Open();
-                        //Execute this code to reflect the changes into the database
-                        Connection.Execute(Query, Record);
-                    }
+                //Create query to update the changes into the database by accessing its properties.
+                string queryStr = "UPDATE Orders SET CustomerID = @CustomerID, Freight = @Freight, ShipCity = @ShipCity, EmployeeID = @EmployeeID WHERE OrderID = @OrderID";
+
+                //Create SQL connection.
+                using (IDbConnection Connection = new SqlConnection(ConnectionString))
+                {
+                    Connection.Open();
+                    //Execute this code to reflect the changes into the database.
+                    Connection.Execute(queryStr, Record);
                 }
 
+                //Add custom logic here if needed and remove above method.
+                }
             }
             if (value.added != null && value.added.Count > 0)
             {
-                foreach (var Record in (IEnumerable<Orders>)value.added)
+                foreach (Orders Record in (IEnumerable<Orders>)value.added)
                 {
-                    //Create query to insert the specific into the database by accessing its properties 
-                    string Query = "INSERT INTO Orders (CustomerID, Freight, ShipCity, EmployeeID) VALUES (@CustomerID, @Freight, @ShipCity, @EmployeeID)";
-                    using (IDbConnection Connection = new SqlConnection(ConnectionString))
-                    {
-                        Connection.Open();
-                        //Execute this code to reflect the changes into the database
-                        Connection.Execute(Query, Record);
-                    }
+                //Create query to insert the specific into the database by accessing its properties.
+                string queryStr = "INSERT INTO Orders (CustomerID, Freight, ShipCity, EmployeeID) VALUES (@CustomerID, @Freight, @ShipCity, @EmployeeID)";
+
+                //Create SQL connection.
+                using (IDbConnection Connection = new SqlConnection(ConnectionString))
+                {
+                    Connection.Open();
+                    //Execute this code to reflect the changes into the database.
+                    Connection.Execute(queryStr, Record);
+                }
+
+                //Add custom logic here if needed and remove above method.
                 }
             }
             if (value.deleted != null && value.deleted.Count > 0)
             {
-                foreach (var Record in (IEnumerable<Orders>)value.deleted)
+                foreach (Orders Record in (IEnumerable<Orders>)value.deleted)
                 {
                     //Create query to remove the specific from database by passing the primary key column value.
-                    string Query = "DELETE FROM Orders WHERE OrderID = @OrderID";
+                    string queryStr = "DELETE FROM Orders WHERE OrderID = @OrderID";
+
+                    //Create SQL connection.
                     using (IDbConnection Connection = new SqlConnection(ConnectionString))
                     {
                         Connection.Open();
-                        //Execute this code to reflect the changes into the database
-                        Connection.Execute(Query, new { OrderID = Record.OrderID });
+                        //Execute this code to reflect the changes into the database.
+                        Connection.Execute(queryStr, new { OrderID = Record.OrderID });
                     }
+
+                    //Add custom logic here if needed and remove above method.
                 }
             }
-            return new JsonResult(value);
-
+             return new JsonResult(value);
         }
 
 
@@ -249,6 +261,6 @@ namespace Grid_Dapper.Controllers
             public decimal? Freight { get; set; }
             public string? ShipCity { get; set; }
         }
-    
-}
+
+    }
 }
