@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "pfvPDdOg4Y+/+UAExWyFp6YWog8KaB5P9o00QOI349o=",
+  "Source": "Grid_Dapper",
+  "BasePath": "_content/Grid_Dapper",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Grid_Dapper\\wwwroot",
+      "Source": "Grid_Dapper",
+      "ContentRoot": "D:\\angular\\typescript\\dapper\\Grid_Dapper\\wwwroot\\",
+      "BasePath": "_content/Grid_Dapper",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\angular\\typescript\\dapper\\Grid_Dapper\\wwwroot\\index.html",
+      "SourceId": "Grid_Dapper",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\angular\\typescript\\dapper\\Grid_Dapper\\wwwroot\\",
+      "BasePath": "_content/Grid_Dapper",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\angular\\typescript\\dapper\\Grid_Dapper\\wwwroot\\main.e205484ecc5f55908c24.js",
+      "SourceId": "Grid_Dapper",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\angular\\typescript\\dapper\\Grid_Dapper\\wwwroot\\",
+      "BasePath": "_content/Grid_Dapper",
+      "RelativePath": "main.e205484ecc5f55908c24.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\main.e205484ecc5f55908c24.js"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\angular\\typescript-databse\\mysql\\mysql-custom\\Grid_MYSQL\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\angular\\typescript-databse\\mysql\\mysql-custom\\Grid_MYSQL\\wwwroot\\main.f22c20f5cfc7de87d1f1.js",
+      "PackagePath": "staticwebassets\\main.f22c20f5cfc7de87d1f1.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Grid_MYSQL.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Grid_MYSQL.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Grid_MYSQL.props",
+      "PackagePath": "build\\Grid_MYSQL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Grid_MYSQL.props",
+      "PackagePath": "buildMultiTargeting\\Grid_MYSQL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Grid_MYSQL.props",
+      "PackagePath": "buildTransitive\\Grid_MYSQL.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

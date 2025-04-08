@@ -1,0 +1,2 @@
+wwwroot\index.html
+wwwroot\main.f22c20f5cfc7de87d1f1.js

@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "Pav0QSPtX+e0eLYNl+nTCJrSkRbsidacBjRB3CE+6Y4=",
+  "Source": "Grid_MYSQL",
+  "BasePath": "_content/Grid_MYSQL",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Grid_MYSQL\\wwwroot",
+      "Source": "Grid_MYSQL",
+      "ContentRoot": "D:\\angular\\typescript-databse\\mysql\\mysql-custom\\Grid_MYSQL\\wwwroot\\",
+      "BasePath": "_content/Grid_MYSQL",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\angular\\typescript-databse\\mysql\\mysql-custom\\Grid_MYSQL\\wwwroot\\index.html",
+      "SourceId": "Grid_MYSQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\angular\\typescript-databse\\mysql\\mysql-custom\\Grid_MYSQL\\wwwroot\\",
+      "BasePath": "_content/Grid_MYSQL",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "np84ahq1g5",
+      "Integrity": "GxOiQq0QRuVEfDypADQZPBzUkXZWK2TujOewqXCd7no=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\angular\\typescript-databse\\mysql\\mysql-custom\\Grid_MYSQL\\wwwroot\\main.f22c20f5cfc7de87d1f1.js",
+      "SourceId": "Grid_MYSQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\angular\\typescript-databse\\mysql\\mysql-custom\\Grid_MYSQL\\wwwroot\\",
+      "BasePath": "_content/Grid_MYSQL",
+      "RelativePath": "main.f22c20f5cfc7de87d1f1#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "siqeal1ynd",
+      "Integrity": "xMsoy4ybPmdjXJRqRzaNNf8ucK2OSrhvPLdSjRfAo7Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\main.f22c20f5cfc7de87d1f1.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\angular\\typescript-databse\\mysql\\mysql-custom\\Grid_MYSQL\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2020"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GxOiQq0QRuVEfDypADQZPBzUkXZWK2TujOewqXCd7no=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 12:53:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GxOiQq0QRuVEfDypADQZPBzUkXZWK2TujOewqXCd7no="
+        }
+      ]
+    },
+    {
+      "Route": "index.np84ahq1g5.html",
+      "AssetFile": "D:\\angular\\typescript-databse\\mysql\\mysql-custom\\Grid_MYSQL\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2020"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GxOiQq0QRuVEfDypADQZPBzUkXZWK2TujOewqXCd7no=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 12:53:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "np84ahq1g5"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GxOiQq0QRuVEfDypADQZPBzUkXZWK2TujOewqXCd7no="
+        }
+      ]
+    },
+    {
+      "Route": "main.f22c20f5cfc7de87d1f1.js",
+      "AssetFile": "D:\\angular\\typescript-databse\\mysql\\mysql-custom\\Grid_MYSQL\\wwwroot\\main.f22c20f5cfc7de87d1f1.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8795062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xMsoy4ybPmdjXJRqRzaNNf8ucK2OSrhvPLdSjRfAo7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 12:53:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xMsoy4ybPmdjXJRqRzaNNf8ucK2OSrhvPLdSjRfAo7Y="
+        }
+      ]
+    },
+    {
+      "Route": "main.f22c20f5cfc7de87d1f1.siqeal1ynd.js",
+      "AssetFile": "D:\\angular\\typescript-databse\\mysql\\mysql-custom\\Grid_MYSQL\\wwwroot\\main.f22c20f5cfc7de87d1f1.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8795062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xMsoy4ybPmdjXJRqRzaNNf8ucK2OSrhvPLdSjRfAo7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 12:53:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "siqeal1ynd"
+        },
+        {
+          "Name": "label",
+          "Value": "main.f22c20f5cfc7de87d1f1.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xMsoy4ybPmdjXJRqRzaNNf8ucK2OSrhvPLdSjRfAo7Y="
+        }
+      ]
+    }
+  ]
+}
