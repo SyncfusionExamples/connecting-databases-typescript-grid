@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Branch\\SQLite_TS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|d:\\branch\\sqlite_ts\\sqlite_ts\\controllers\\gridcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|solutionrelative:sqlite_ts\\controllers\\gridcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|d:\\branch\\sqlite_ts\\sqlite_ts\\src\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|solutionrelative:sqlite_ts\\src\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|d:\\branch\\sqlite_ts\\sqlite_ts\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|solutionrelative:sqlite_ts\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|d:\\branch\\sqlite_ts\\sqlite_ts\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|solutionrelative:sqlite_ts\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|d:\\branch\\sqlite_ts\\sqlite_ts\\src\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|solutionrelative:sqlite_ts\\src\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|d:\\branch\\sqlite_ts\\sqlite_ts\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|solutionrelative:sqlite_ts\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|d:\\branch\\sqlite_ts\\sqlite_ts\\webpack.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|solutionrelative:sqlite_ts\\webpack.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|d:\\branch\\sqlite_ts\\sqlite_ts\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|solutionrelative:sqlite_ts\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|d:\\branch\\sqlite_ts\\sqlite_ts\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF68AF4F-9FC3-4C83-B4CD-A0580955A83B}|SQLite_TS\\SQLite_TS.csproj|solutionrelative:sqlite_ts\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "D:\\Branch\\SQLite_TS\\SQLite_TS\\package-lock.json",
+              "RelativeDocumentMoniker": "SQLite_TS\\package-lock.json",
+              "ToolTip": "D:\\Branch\\SQLite_TS\\SQLite_TS\\package-lock.json",
+              "RelativeToolTip": "SQLite_TS\\package-lock.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T07:02:56.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "D:\\Branch\\SQLite_TS\\SQLite_TS\\src\\tsconfig.json",
+              "RelativeDocumentMoniker": "SQLite_TS\\src\\tsconfig.json",
+              "ToolTip": "D:\\Branch\\SQLite_TS\\SQLite_TS\\src\\tsconfig.json",
+              "RelativeToolTip": "SQLite_TS\\src\\tsconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T06:59:05.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GridController.cs",
+              "DocumentMoniker": "D:\\Branch\\SQLite_TS\\SQLite_TS\\Controllers\\GridController.cs",
+              "RelativeDocumentMoniker": "SQLite_TS\\Controllers\\GridController.cs",
+              "ToolTip": "D:\\Branch\\SQLite_TS\\SQLite_TS\\Controllers\\GridController.cs",
+              "RelativeToolTip": "SQLite_TS\\Controllers\\GridController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T06:56:26.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.ts",
+              "DocumentMoniker": "D:\\Branch\\SQLite_TS\\SQLite_TS\\src\\index.ts",
+              "RelativeDocumentMoniker": "SQLite_TS\\src\\index.ts",
+              "ToolTip": "D:\\Branch\\SQLite_TS\\SQLite_TS\\src\\index.ts",
+              "RelativeToolTip": "SQLite_TS\\src\\index.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-03T06:54:24.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Branch\\SQLite_TS\\SQLite_TS\\src\\index.html",
+              "RelativeDocumentMoniker": "SQLite_TS\\src\\index.html",
+              "ToolTip": "D:\\Branch\\SQLite_TS\\SQLite_TS\\src\\index.html",
+              "RelativeToolTip": "SQLite_TS\\src\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-03T06:54:21.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "package.json",
+              "DocumentMoniker": "D:\\Branch\\SQLite_TS\\SQLite_TS\\package.json",
+              "RelativeDocumentMoniker": "SQLite_TS\\package.json",
+              "ToolTip": "D:\\Branch\\SQLite_TS\\SQLite_TS\\package.json",
+              "RelativeToolTip": "SQLite_TS\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T06:44:13.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Branch\\SQLite_TS\\SQLite_TS\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SQLite_TS\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Branch\\SQLite_TS\\SQLite_TS\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SQLite_TS\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T07:03:21.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "webpack.config.js",
+              "DocumentMoniker": "D:\\Branch\\SQLite_TS\\SQLite_TS\\webpack.config.js",
+              "RelativeDocumentMoniker": "SQLite_TS\\webpack.config.js",
+              "ToolTip": "D:\\Branch\\SQLite_TS\\SQLite_TS\\webpack.config.js",
+              "RelativeToolTip": "SQLite_TS\\webpack.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-03T06:45:17.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Branch\\SQLite_TS\\SQLite_TS\\Program.cs",
+              "RelativeDocumentMoniker": "SQLite_TS\\Program.cs",
+              "ToolTip": "D:\\Branch\\SQLite_TS\\SQLite_TS\\Program.cs",
+              "RelativeToolTip": "SQLite_TS\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T06:41:37.658Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
