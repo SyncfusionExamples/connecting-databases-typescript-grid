@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|d:\\component\\ej2\\ts\\connecting-databases-typescript-grid\\binding sql database using ef and customadaptor\\customadaptor_entityframework\\customadaptor_entityframework\\src\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|solutionrelative:customadaptor_entityframework\\src\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|d:\\component\\ej2\\ts\\connecting-databases-typescript-grid\\binding sql database using ef and customadaptor\\customadaptor_entityframework\\customadaptor_entityframework\\controllers\\gridcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|solutionrelative:customadaptor_entityframework\\controllers\\gridcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|d:\\component\\ej2\\ts\\connecting-databases-typescript-grid\\binding sql database using ef and customadaptor\\customadaptor_entityframework\\customadaptor_entityframework\\src\\customadaptor.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|solutionrelative:customadaptor_entityframework\\src\\customadaptor.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|d:\\component\\ej2\\ts\\connecting-databases-typescript-grid\\binding sql database using ef and customadaptor\\customadaptor_entityframework\\customadaptor_entityframework\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|solutionrelative:customadaptor_entityframework\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|d:\\component\\ej2\\ts\\connecting-databases-typescript-grid\\binding sql database using ef and customadaptor\\customadaptor_entityframework\\customadaptor_entityframework\\webpack.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|solutionrelative:customadaptor_entityframework\\webpack.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|d:\\component\\ej2\\ts\\connecting-databases-typescript-grid\\binding sql database using ef and customadaptor\\customadaptor_entityframework\\customadaptor_entityframework\\src\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|solutionrelative:customadaptor_entityframework\\src\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|d:\\component\\ej2\\ts\\connecting-databases-typescript-grid\\binding sql database using ef and customadaptor\\customadaptor_entityframework\\customadaptor_entityframework\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|solutionrelative:customadaptor_entityframework\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|d:\\component\\ej2\\ts\\connecting-databases-typescript-grid\\binding sql database using ef and customadaptor\\customadaptor_entityframework\\customadaptor_entityframework\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|solutionrelative:customadaptor_entityframework\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|d:\\component\\ej2\\ts\\connecting-databases-typescript-grid\\binding sql database using ef and customadaptor\\customadaptor_entityframework\\customadaptor_entityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}|CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework.csproj|solutionrelative:customadaptor_entityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomAdaptor.ts",
+              "DocumentMoniker": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\src\\CustomAdaptor.ts",
+              "RelativeDocumentMoniker": "CustomAdaptor_EntityFramework\\src\\CustomAdaptor.ts",
+              "ToolTip": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\src\\CustomAdaptor.ts",
+              "RelativeToolTip": "CustomAdaptor_EntityFramework\\src\\CustomAdaptor.ts",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwDsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-03T07:09:13.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\src\\tsconfig.json",
+              "RelativeDocumentMoniker": "CustomAdaptor_EntityFramework\\src\\tsconfig.json",
+              "ToolTip": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\src\\tsconfig.json",
+              "RelativeToolTip": "CustomAdaptor_EntityFramework\\src\\tsconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T07:04:25.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.ts",
+              "DocumentMoniker": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\src\\index.ts",
+              "RelativeDocumentMoniker": "CustomAdaptor_EntityFramework\\src\\index.ts",
+              "ToolTip": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\src\\index.ts",
+              "RelativeToolTip": "CustomAdaptor_EntityFramework\\src\\index.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-03T07:00:38.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\src\\index.html",
+              "RelativeDocumentMoniker": "CustomAdaptor_EntityFramework\\src\\index.html",
+              "ToolTip": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\src\\index.html",
+              "RelativeToolTip": "CustomAdaptor_EntityFramework\\src\\index.html",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABMAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-03T07:00:28.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "webpack.config.js",
+              "DocumentMoniker": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\webpack.config.js",
+              "RelativeDocumentMoniker": "CustomAdaptor_EntityFramework\\webpack.config.js",
+              "ToolTip": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\webpack.config.js",
+              "RelativeToolTip": "CustomAdaptor_EntityFramework\\webpack.config.js",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-03T06:59:34.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "package.json",
+              "DocumentMoniker": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\package.json",
+              "RelativeDocumentMoniker": "CustomAdaptor_EntityFramework\\package.json",
+              "ToolTip": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\package.json",
+              "RelativeToolTip": "CustomAdaptor_EntityFramework\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T06:57:54.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GridController.cs",
+              "DocumentMoniker": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\Controllers\\GridController.cs",
+              "RelativeDocumentMoniker": "CustomAdaptor_EntityFramework\\Controllers\\GridController.cs",
+              "ToolTip": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\Controllers\\GridController.cs",
+              "RelativeToolTip": "CustomAdaptor_EntityFramework\\Controllers\\GridController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T06:45:05.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CustomAdaptor_EntityFramework\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CustomAdaptor_EntityFramework\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T06:44:12.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\Program.cs",
+              "RelativeDocumentMoniker": "CustomAdaptor_EntityFramework\\Program.cs",
+              "ToolTip": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and CustomAdaptor\\CustomAdaptor_EntityFramework\\CustomAdaptor_EntityFramework\\Program.cs",
+              "RelativeToolTip": "CustomAdaptor_EntityFramework\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T06:43:30.491Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

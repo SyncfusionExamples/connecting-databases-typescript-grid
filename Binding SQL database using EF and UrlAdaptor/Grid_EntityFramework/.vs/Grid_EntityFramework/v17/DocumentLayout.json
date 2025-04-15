@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and UrlAdaptor\\Grid_EntityFramework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F608DEAE-841C-4844-9BDB-0F5992E0AAA1}|Grid_EntityFramework\\Grid_EntityFramework.csproj|d:\\component\\ej2\\ts\\connecting-databases-typescript-grid\\binding sql database using ef and urladaptor\\grid_entityframework\\grid_entityframework\\src\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{F608DEAE-841C-4844-9BDB-0F5992E0AAA1}|Grid_EntityFramework\\Grid_EntityFramework.csproj|solutionrelative:grid_entityframework\\src\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F608DEAE-841C-4844-9BDB-0F5992E0AAA1}|Grid_EntityFramework\\Grid_EntityFramework.csproj|d:\\component\\ej2\\ts\\connecting-databases-typescript-grid\\binding sql database using ef and urladaptor\\grid_entityframework\\grid_entityframework\\controllers\\gridcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F608DEAE-841C-4844-9BDB-0F5992E0AAA1}|Grid_EntityFramework\\Grid_EntityFramework.csproj|solutionrelative:grid_entityframework\\controllers\\gridcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F608DEAE-841C-4844-9BDB-0F5992E0AAA1}|Grid_EntityFramework\\Grid_EntityFramework.csproj|d:\\component\\ej2\\ts\\connecting-databases-typescript-grid\\binding sql database using ef and urladaptor\\grid_entityframework\\grid_entityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F608DEAE-841C-4844-9BDB-0F5992E0AAA1}|Grid_EntityFramework\\Grid_EntityFramework.csproj|solutionrelative:grid_entityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F608DEAE-841C-4844-9BDB-0F5992E0AAA1}|Grid_EntityFramework\\Grid_EntityFramework.csproj|d:\\component\\ej2\\ts\\connecting-databases-typescript-grid\\binding sql database using ef and urladaptor\\grid_entityframework\\grid_entityframework\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F608DEAE-841C-4844-9BDB-0F5992E0AAA1}|Grid_EntityFramework\\Grid_EntityFramework.csproj|solutionrelative:grid_entityframework\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F608DEAE-841C-4844-9BDB-0F5992E0AAA1}|Grid_EntityFramework\\Grid_EntityFramework.csproj|d:\\component\\ej2\\ts\\connecting-databases-typescript-grid\\binding sql database using ef and urladaptor\\grid_entityframework\\grid_entityframework\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F608DEAE-841C-4844-9BDB-0F5992E0AAA1}|Grid_EntityFramework\\Grid_EntityFramework.csproj|solutionrelative:grid_entityframework\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F608DEAE-841C-4844-9BDB-0F5992E0AAA1}|Grid_EntityFramework\\Grid_EntityFramework.csproj|d:\\component\\ej2\\ts\\connecting-databases-typescript-grid\\binding sql database using ef and urladaptor\\grid_entityframework\\grid_entityframework\\src\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F608DEAE-841C-4844-9BDB-0F5992E0AAA1}|Grid_EntityFramework\\Grid_EntityFramework.csproj|solutionrelative:grid_entityframework\\src\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F608DEAE-841C-4844-9BDB-0F5992E0AAA1}|Grid_EntityFramework\\Grid_EntityFramework.csproj|d:\\component\\ej2\\ts\\connecting-databases-typescript-grid\\binding sql database using ef and urladaptor\\grid_entityframework\\grid_entityframework\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F608DEAE-841C-4844-9BDB-0F5992E0AAA1}|Grid_EntityFramework\\Grid_EntityFramework.csproj|solutionrelative:grid_entityframework\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F608DEAE-841C-4844-9BDB-0F5992E0AAA1}|Grid_EntityFramework\\Grid_EntityFramework.csproj|d:\\component\\ej2\\ts\\connecting-databases-typescript-grid\\binding sql database using ef and urladaptor\\grid_entityframework\\grid_entityframework\\webpack.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F608DEAE-841C-4844-9BDB-0F5992E0AAA1}|Grid_EntityFramework\\Grid_EntityFramework.csproj|solutionrelative:grid_entityframework\\webpack.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and UrlAdaptor\\Grid_EntityFramework\\Grid_EntityFramework\\src\\tsconfig.json",
+              "RelativeDocumentMoniker": "Grid_EntityFramework\\src\\tsconfig.json",
+              "ToolTip": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and UrlAdaptor\\Grid_EntityFramework\\Grid_EntityFramework\\src\\tsconfig.json",
+              "RelativeToolTip": "Grid_EntityFramework\\src\\tsconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T05:55:23.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.ts",
+              "DocumentMoniker": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and UrlAdaptor\\Grid_EntityFramework\\Grid_EntityFramework\\src\\index.ts",
+              "RelativeDocumentMoniker": "Grid_EntityFramework\\src\\index.ts",
+              "ToolTip": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and UrlAdaptor\\Grid_EntityFramework\\Grid_EntityFramework\\src\\index.ts",
+              "RelativeToolTip": "Grid_EntityFramework\\src\\index.ts",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-03T05:50:55.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and UrlAdaptor\\Grid_EntityFramework\\Grid_EntityFramework\\src\\index.html",
+              "RelativeDocumentMoniker": "Grid_EntityFramework\\src\\index.html",
+              "ToolTip": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and UrlAdaptor\\Grid_EntityFramework\\Grid_EntityFramework\\src\\index.html",
+              "RelativeToolTip": "Grid_EntityFramework\\src\\index.html",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-03T05:50:45.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "webpack.config.js",
+              "DocumentMoniker": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and UrlAdaptor\\Grid_EntityFramework\\Grid_EntityFramework\\webpack.config.js",
+              "RelativeDocumentMoniker": "Grid_EntityFramework\\webpack.config.js",
+              "ToolTip": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and UrlAdaptor\\Grid_EntityFramework\\Grid_EntityFramework\\webpack.config.js",
+              "RelativeToolTip": "Grid_EntityFramework\\webpack.config.js",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-03T05:50:09.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "package.json",
+              "DocumentMoniker": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and UrlAdaptor\\Grid_EntityFramework\\Grid_EntityFramework\\package.json",
+              "RelativeDocumentMoniker": "Grid_EntityFramework\\package.json",
+              "ToolTip": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and UrlAdaptor\\Grid_EntityFramework\\Grid_EntityFramework\\package.json",
+              "RelativeToolTip": "Grid_EntityFramework\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T05:48:51.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GridController.cs",
+              "DocumentMoniker": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and UrlAdaptor\\Grid_EntityFramework\\Grid_EntityFramework\\Controllers\\GridController.cs",
+              "RelativeDocumentMoniker": "Grid_EntityFramework\\Controllers\\GridController.cs",
+              "ToolTip": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and UrlAdaptor\\Grid_EntityFramework\\Grid_EntityFramework\\Controllers\\GridController.cs",
+              "RelativeToolTip": "Grid_EntityFramework\\Controllers\\GridController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T05:31:34.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and UrlAdaptor\\Grid_EntityFramework\\Grid_EntityFramework\\Program.cs",
+              "RelativeDocumentMoniker": "Grid_EntityFramework\\Program.cs",
+              "ToolTip": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and UrlAdaptor\\Grid_EntityFramework\\Grid_EntityFramework\\Program.cs",
+              "RelativeToolTip": "Grid_EntityFramework\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T05:30:23.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and UrlAdaptor\\Grid_EntityFramework\\Grid_EntityFramework\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Grid_EntityFramework\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Component\\EJ2\\TS\\connecting-databases-typescript-grid\\Binding SQL database using EF and UrlAdaptor\\Grid_EntityFramework\\Grid_EntityFramework\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Grid_EntityFramework\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T04:55:01.252Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
