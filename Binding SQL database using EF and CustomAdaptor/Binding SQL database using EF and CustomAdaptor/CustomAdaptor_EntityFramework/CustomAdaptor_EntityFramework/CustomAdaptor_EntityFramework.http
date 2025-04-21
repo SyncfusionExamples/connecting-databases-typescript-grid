@@ -1,0 +1,6 @@
+@CustomAdaptor_EntityFramework_HostAddress = http://localhost:5245
+
+GET {{CustomAdaptor_EntityFramework_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

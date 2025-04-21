@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAdaptor_EntityFramework", "CustomAdaptor_EntityFramework\CustomAdaptor_EntityFramework.csproj", "{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD70E4CD-7DDF-4B4D-9722-9B84533FEA92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {826446D9-5622-41FC-9C36-31A0E8F870DC}
+	EndGlobalSection
+EndGlobal
