@@ -19,3 +19,4 @@ Here, we have explained in detail how to bind the listed databases below to the 
 3. PostgreSQL Database
 4. Dapper
 5. SQLite
+6. Entity Framework
