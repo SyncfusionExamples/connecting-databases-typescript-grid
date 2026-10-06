@@ -38,14 +38,7 @@ namespace CustomAdaptor_EntityFramework.Server.Controllers
             // Handling filtering operation.
             if (DataManagerRequest.Where != null && DataManagerRequest.Where.Count > 0)
             {
-                foreach (WhereFilter condition in DataManagerRequest.Where)
-                {
-                    foreach (WhereFilter predicate in condition.predicates)
-                    {
-                        DataSource = queryableOperation.PerformFiltering(DataSource, DataManagerRequest.Where, predicate.Operator);
-                        // Add custom logic here if needed and remove above method.
-                    }
-                }
+                DataSource = queryableOperation.PerformFiltering(DataSource, DataManagerRequest.Where, DataManagerRequest.Where[0].Condition);
             }
 
             // Handling sorting operation.
